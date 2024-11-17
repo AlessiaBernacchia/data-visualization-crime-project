@@ -1,0 +1,1022 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20242.24.0910.0334                               -->
+<workbook original-version='18.1' source-build='2024.2.3 (20242.24.0910.0334)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='B2' inline='true' name='federated.0dpr5f10ntr4h61frat9z1b4hoes' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='B2' name='textscan.0praj5m0fl3g6718wi1iy1o6qfm4'>
+            <connection class='textscan' directory='C:/Users/giaco/Downloads/crime.csv (2)/df_district' filename='B2.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0praj5m0fl3g6718wi1iy1o6qfm4' name='B2.csv' table='[B2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='it_CH' separator=','>
+            <column datatype='string' name='Incident_Number' ordinal='0' />
+            <column datatype='string' name='Offense_Code_Group' ordinal='1' />
+            <column datatype='string' name='Offense_Description' ordinal='2' />
+            <column datatype='string' name='District' ordinal='3' />
+            <column datatype='integer' name='Reporting_Area' ordinal='4' />
+            <column datatype='boolean' name='Shooting' ordinal='5' />
+            <column datatype='datetime' name='Occurred_On_Date' ordinal='6' />
+            <column datatype='integer' name='Year' ordinal='7' />
+            <column datatype='integer' name='Month' ordinal='8' />
+            <column datatype='string' name='Day_Of_Week' ordinal='9' />
+            <column datatype='integer' name='Hour' ordinal='10' />
+            <column datatype='string' name='Ucr_Part' ordinal='11' />
+            <column datatype='string' name='Street' ordinal='12' />
+            <column datatype='real' name='Lat' ordinal='13' />
+            <column datatype='real' name='Long' ordinal='14' />
+            <column datatype='string' name='Location' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0praj5m0fl3g6718wi1iy1o6qfm4' name='B2.csv' table='[B2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='it_CH' separator=','>
+            <column datatype='string' name='Incident_Number' ordinal='0' />
+            <column datatype='string' name='Offense_Code_Group' ordinal='1' />
+            <column datatype='string' name='Offense_Description' ordinal='2' />
+            <column datatype='string' name='District' ordinal='3' />
+            <column datatype='integer' name='Reporting_Area' ordinal='4' />
+            <column datatype='boolean' name='Shooting' ordinal='5' />
+            <column datatype='datetime' name='Occurred_On_Date' ordinal='6' />
+            <column datatype='integer' name='Year' ordinal='7' />
+            <column datatype='integer' name='Month' ordinal='8' />
+            <column datatype='string' name='Day_Of_Week' ordinal='9' />
+            <column datatype='integer' name='Hour' ordinal='10' />
+            <column datatype='string' name='Ucr_Part' ordinal='11' />
+            <column datatype='string' name='Street' ordinal='12' />
+            <column datatype='real' name='Lat' ordinal='13' />
+            <column datatype='real' name='Long' ordinal='14' />
+            <column datatype='string' name='Location' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;it&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;CHF&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;it_CH&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;’&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Incident_Number</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Incident_Number]</local-name>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias>Incident_Number</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offense_Code_Group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Offense_Code_Group]</local-name>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias>Offense_Code_Group</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offense_Description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Offense_Description]</local-name>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias>Offense_Description</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>District</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[District]</local-name>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias>District</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reporting_Area</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reporting_Area]</local-name>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias>Reporting_Area</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shooting</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Shooting]</local-name>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias>Shooting</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occurred_On_Date</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Occurred_On_Date]</local-name>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias>Occurred_On_Date</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Day_Of_Week</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Day_Of_Week]</local-name>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias>Day_Of_Week</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hour</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hour]</local-name>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias>Hour</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ucr_Part</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Ucr_Part]</local-name>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias>Ucr_Part</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Street</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Street]</local-name>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias>Street</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Lat]</local-name>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias>Lat</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Long]</local-name>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias>Long</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[B2.csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='number_of_crimes' datatype='integer' name='[Calculation_1055531178216427534]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='count([Incident_Number])' />
+      </column>
+      <column caption='unique_days_in_Year' datatype='integer' name='[Calculation_1055531178217721871]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='countd(Date([Occurred_On_Date]))' />
+      </column>
+      <column caption='Daily_avg' datatype='real' name='[Calculation_1055531178218491920]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='round([Calculation_1055531178216427534]/ [Calculation_1055531178217721871])' />
+      </column>
+      <column caption='Day Of Week' datatype='string' name='[Day_Of_Week]' role='dimension' type='nominal' />
+      <column caption='Incident Number' datatype='string' name='[Incident_Number]' role='dimension' type='nominal' />
+      <column aggregation='Avg' datatype='real' name='[Lat]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Long]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column caption='Occurred On Date' datatype='datetime' name='[Occurred_On_Date]' role='dimension' type='ordinal' />
+      <column caption='Offense Code Group' datatype='string' name='[Offense_Code_Group]' role='dimension' type='nominal' />
+      <column caption='Offense Description' datatype='string' name='[Offense_Description]' role='dimension' type='nominal' />
+      <column caption='Reporting Area' datatype='integer' name='[Reporting_Area]' role='measure' type='quantitative' />
+      <column caption='Ucr Part' datatype='string' name='[Ucr_Part]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='B2.csv' datatype='table' name='[__tableau_internal_object_id__].[B2.csv_D52E7C58FB164BE18E9B6FEBDAD40110]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Svizzera&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='B2.csv' id='B2.csv_D52E7C58FB164BE18E9B6FEBDAD40110'>
+            <properties context=''>
+              <relation connection='textscan.0praj5m0fl3g6718wi1iy1o6qfm4' name='B2.csv' table='[B2#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='it_CH' separator=','>
+                  <column datatype='string' name='Incident_Number' ordinal='0' />
+                  <column datatype='string' name='Offense_Code_Group' ordinal='1' />
+                  <column datatype='string' name='Offense_Description' ordinal='2' />
+                  <column datatype='string' name='District' ordinal='3' />
+                  <column datatype='integer' name='Reporting_Area' ordinal='4' />
+                  <column datatype='boolean' name='Shooting' ordinal='5' />
+                  <column datatype='datetime' name='Occurred_On_Date' ordinal='6' />
+                  <column datatype='integer' name='Year' ordinal='7' />
+                  <column datatype='integer' name='Month' ordinal='8' />
+                  <column datatype='string' name='Day_Of_Week' ordinal='9' />
+                  <column datatype='integer' name='Hour' ordinal='10' />
+                  <column datatype='string' name='Ucr_Part' ordinal='11' />
+                  <column datatype='string' name='Street' ordinal='12' />
+                  <column datatype='real' name='Lat' ordinal='13' />
+                  <column datatype='real' name='Long' ordinal='14' />
+                  <column datatype='string' name='Location' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='crime_cleaned' inline='true' name='federated.1lddoew06p9gr21cdg34q1srr120' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='crime_cleaned' name='textscan.1jtnr890zw9go41fwnjsc1kemosr'>
+            <connection class='textscan' directory='C:/Users/giaco/Downloads/crime.csv (2)' filename='crime_cleaned.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1jtnr890zw9go41fwnjsc1kemosr' name='crime_cleaned.csv' table='[crime_cleaned#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='it_CH' separator=','>
+            <column datatype='string' name='Incident_Number' ordinal='0' />
+            <column datatype='string' name='Offense_Code_Group' ordinal='1' />
+            <column datatype='string' name='Offense_Description' ordinal='2' />
+            <column datatype='string' name='District' ordinal='3' />
+            <column datatype='integer' name='Reporting_Area' ordinal='4' />
+            <column datatype='boolean' name='Shooting' ordinal='5' />
+            <column datatype='datetime' name='Occurred_On_Date' ordinal='6' />
+            <column datatype='integer' name='Year' ordinal='7' />
+            <column datatype='integer' name='Month' ordinal='8' />
+            <column datatype='string' name='Day_Of_Week' ordinal='9' />
+            <column datatype='integer' name='Hour' ordinal='10' />
+            <column datatype='string' name='Ucr_Part' ordinal='11' />
+            <column datatype='string' name='Street' ordinal='12' />
+            <column datatype='real' name='Lat' ordinal='13' />
+            <column datatype='real' name='Long' ordinal='14' />
+            <column datatype='string' name='Location' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1jtnr890zw9go41fwnjsc1kemosr' name='crime_cleaned.csv' table='[crime_cleaned#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='it_CH' separator=','>
+            <column datatype='string' name='Incident_Number' ordinal='0' />
+            <column datatype='string' name='Offense_Code_Group' ordinal='1' />
+            <column datatype='string' name='Offense_Description' ordinal='2' />
+            <column datatype='string' name='District' ordinal='3' />
+            <column datatype='integer' name='Reporting_Area' ordinal='4' />
+            <column datatype='boolean' name='Shooting' ordinal='5' />
+            <column datatype='datetime' name='Occurred_On_Date' ordinal='6' />
+            <column datatype='integer' name='Year' ordinal='7' />
+            <column datatype='integer' name='Month' ordinal='8' />
+            <column datatype='string' name='Day_Of_Week' ordinal='9' />
+            <column datatype='integer' name='Hour' ordinal='10' />
+            <column datatype='string' name='Ucr_Part' ordinal='11' />
+            <column datatype='string' name='Street' ordinal='12' />
+            <column datatype='real' name='Lat' ordinal='13' />
+            <column datatype='real' name='Long' ordinal='14' />
+            <column datatype='string' name='Location' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;it&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;CHF&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;it_CH&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;’&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Incident_Number</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Incident_Number]</local-name>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias>Incident_Number</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offense_Code_Group</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Offense_Code_Group]</local-name>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias>Offense_Code_Group</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offense_Description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Offense_Description]</local-name>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias>Offense_Description</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>District</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[District]</local-name>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias>District</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reporting_Area</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Reporting_Area]</local-name>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias>Reporting_Area</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shooting</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[Shooting]</local-name>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias>Shooting</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Occurred_On_Date</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Occurred_On_Date]</local-name>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias>Occurred_On_Date</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Day_Of_Week</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Day_Of_Week]</local-name>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias>Day_Of_Week</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hour</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hour]</local-name>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias>Hour</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ucr_Part</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Ucr_Part]</local-name>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias>Ucr_Part</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Street</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Street]</local-name>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias>Street</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Lat]</local-name>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias>Lat</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Long]</local-name>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias>Long</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Location]</local-name>
+            <parent-name>[crime_cleaned.csv]</parent-name>
+            <remote-alias>Location</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LIT_RIT' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Crimes_count' datatype='integer' name='[Calculation_1055531178223681555]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='count([Incident_Number])' />
+      </column>
+      <column caption='Unique Days in Year' datatype='integer' name='[Calculation_1055531178224017428]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='countd(date([Occurred_On_Date]))' />
+      </column>
+      <column caption='Daily Average' datatype='real' name='[Calculation_1055531178224242709]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='round([Calculation_1055531178223681555] / [Calculation_1055531178224017428])' />
+      </column>
+      <column caption='Day Of Week' datatype='string' name='[Day_Of_Week]' role='dimension' type='nominal' />
+      <column caption='Incident Number' datatype='string' name='[Incident_Number]' role='dimension' type='nominal' />
+      <column aggregation='Avg' datatype='real' name='[Lat]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Long]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column caption='Occurred On Date' datatype='datetime' name='[Occurred_On_Date]' role='dimension' type='ordinal' />
+      <column caption='Offense Code Group' datatype='string' name='[Offense_Code_Group]' role='dimension' type='nominal' />
+      <column caption='Offense Description' datatype='string' name='[Offense_Description]' role='dimension' type='nominal' />
+      <column caption='Reporting Area' datatype='integer' name='[Reporting_Area]' role='measure' type='quantitative' />
+      <column caption='Ucr Part' datatype='string' name='[Ucr_Part]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='crime_cleaned.csv' datatype='table' name='[__tableau_internal_object_id__].[crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Svizzera&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='crime_cleaned.csv' id='crime_cleaned.csv_DE56FC49AA2C4137BB40A711FBF5357A'>
+            <properties context=''>
+              <relation connection='textscan.1jtnr890zw9go41fwnjsc1kemosr' name='crime_cleaned.csv' table='[crime_cleaned#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='it_CH' separator=','>
+                  <column datatype='string' name='Incident_Number' ordinal='0' />
+                  <column datatype='string' name='Offense_Code_Group' ordinal='1' />
+                  <column datatype='string' name='Offense_Description' ordinal='2' />
+                  <column datatype='string' name='District' ordinal='3' />
+                  <column datatype='integer' name='Reporting_Area' ordinal='4' />
+                  <column datatype='boolean' name='Shooting' ordinal='5' />
+                  <column datatype='datetime' name='Occurred_On_Date' ordinal='6' />
+                  <column datatype='integer' name='Year' ordinal='7' />
+                  <column datatype='integer' name='Month' ordinal='8' />
+                  <column datatype='string' name='Day_Of_Week' ordinal='9' />
+                  <column datatype='integer' name='Hour' ordinal='10' />
+                  <column datatype='string' name='Ucr_Part' ordinal='11' />
+                  <column datatype='string' name='Street' ordinal='12' />
+                  <column datatype='real' name='Lat' ordinal='13' />
+                  <column datatype='real' name='Long' ordinal='14' />
+                  <column datatype='string' name='Location' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Foglio 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>numero di crimini giornaliero per distretto</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='crime_cleaned' name='federated.1lddoew06p9gr21cdg34q1srr120' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lddoew06p9gr21cdg34q1srr120'>
+            <column caption='Crimes_count' datatype='integer' name='[Calculation_1055531178223681555]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='count([Incident_Number])' />
+            </column>
+            <column caption='Unique Days in Year' datatype='integer' name='[Calculation_1055531178224017428]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='countd(date([Occurred_On_Date]))' />
+            </column>
+            <column caption='Daily Average' datatype='real' name='[Calculation_1055531178224242709]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='round([Calculation_1055531178223681555] / [Calculation_1055531178224017428])' />
+            </column>
+            <column datatype='string' name='[District]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Hour]' role='measure' type='quantitative' />
+            <column caption='Incident Number' datatype='string' name='[Incident_Number]' role='dimension' type='nominal' />
+            <column caption='Occurred On Date' datatype='datetime' name='[Occurred_On_Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[District]' derivation='None' name='[none:District:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Hour]' derivation='None' name='[none:Hour:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_1055531178224242709]' derivation='User' name='[usr:Calculation_1055531178224242709:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1lddoew06p9gr21cdg34q1srr120].[none:District:nk]'>
+            <groupfilter function='member' level='[none:District:nk]' member='&quot;B2&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1lddoew06p9gr21cdg34q1srr120].[none:Year:ok]'>
+            <groupfilter function='member' level='[none:Year:ok]' member='2015' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1lddoew06p9gr21cdg34q1srr120].[none:Year:ok]</column>
+            <column>[federated.1lddoew06p9gr21cdg34q1srr120].[none:District:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1lddoew06p9gr21cdg34q1srr120].[usr:Calculation_1055531178224242709:qk]</rows>
+        <cols>[federated.1lddoew06p9gr21cdg34q1srr120].[none:Hour:qk]</cols>
+      </table>
+      <simple-id uuid='{9E0B63CD-85BF-4FF2-8489-F9DA2AFE266D}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Foglio 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1lddoew06p9gr21cdg34q1srr120].[none:District:nk]</field>
+            <field>[federated.1lddoew06p9gr21cdg34q1srr120].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{686DFD9E-76EF-4F72-A9A5-BC90706C1B9D}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Foglio 2' width='384'>
+      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
+      IgoyqWJ9EvUAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
