@@ -25,7 +25,22 @@ This study is particularly valuable for residents of Boston, tourists, and indiv
 We used a dataset from Kaggle (URL: https://www.kaggle.com/datasets/AnalyzeBoston/crimes-in-boston) that includes data from the Boston Police Department over a four-year period. This dataset provides a detailed record of all the crimes the police handled in Boston, categorized by police district.
 
 ## Data pre-processing
-For the Preporcessing part look the file cleaning_dataset.ipynb, there you will find all the modification we did to the dataset in order to clean it and shape it as we wanted.
+For the Preporcessing part look the file cleaning_dataset.ipynb, there you will find all the modification we did to the dataset in order to clean it and shape it as we wanted. For commodity here there is a summary:
+
+1.    Initial data familiarization:
+Imported necessary libraries and loaded the crime.csv dataset on juyter notebook
+
+2.    Observation of the dataset
+             Upon reviewing the dataset, we decided to eliminate Offence_code column because we already have the meaning of eache offence code.
+3.    Data cleaning
+1.    We delete the duplicates
+2.    We Delete the samples with missing values in the District feature
+
+4.    Feature engeneering
+1.    We substitute the values “nan” and “Y” in the Shooting feature with FALSE and TRUE
+
+5.    Filtered Dataset
+The filtered dataset is exported and named as crime_cleaned.csv
 
 ## Data visualizations
 Sed enim ut sem viverra aliquet eget sit. Iaculis at erat pellentesque adipiscing commodo. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. At tempor commodo ullamcorper a lacus vestibulum sed arcu. Ipsum faucibus vitae aliquet nec ullamcorper sit. Tempus quam pellentesque nec nam aliquam sem et tortor. Turpis egestas sed tempus urna et pharetra pharetra massa. Ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel.
