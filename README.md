@@ -23,22 +23,11 @@ While pinpointing precise answers to these questions is challenging, we concentr
 This approach provides a clear overview of the areas and times to avoid.The main questions driving our research were aimed at understanding which parts of Boston are more prone to criminal activity. To achieve this, we analyzed a dataset containing information about crimes, including the type of crime, the day and time it occurred, and its geographic location.
 This study is particularly valuable for residents of Boston, tourists, and individuals considering moving to the city. It serves as a practical guide to better understand the patterns of crime in Boston and make informed decisions about safety.
 
-
 ## Data sources
-Facilisis magna etiam tempor orci eu. Felis donec et odio pellentesque diam volutpat commodo. Dis parturient montes nascetur ridiculus mus mauris vitae. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Accumsan sit amet nulla facilisi. Ultricies leo integer malesuada nunc vel risus. Est lorem ipsum dolor sit. Ultrices neque ornare aenean euismod elementum nisi. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. Arcu dictum varius duis at consectetur lorem donec massa sapien. Pellentesque habitant morbi tristique senectus. Turpis massa sed elementum tempus egestas sed sed risus pretium. Eros donec ac odio tempor orci. Pellentesque id nibh tortor id aliquet lectus. Risus feugiat in ante metus dictum at. Quam pellentesque nec nam aliquam sem et tortor consequat id. Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Sit amet dictum sit amet justo donec enim.
-
-[datasource](https://www.kaggle.com/datasets/AnalyzeBoston/crimes-in-boston)
+We used a dataset from Kaggle (URL: https://www.kaggle.com/datasets/AnalyzeBoston/crimes-in-boston) that includes data from the Boston Police Department over a four-year period. This dataset provides a detailed record of all the crimes the police handled in Boston, categorized by police district.
 
 ## Data pre-processing
-Nunc consequat interdum varius sit amet mattis vulputate. Vehicula ipsum a arcu cursus vitae congue. Odio ut sem nulla pharetra. Accumsan lacus vel facilisis volutpat est velit egestas dui id. Quisque egestas diam in arcu cursus. Eget nulla facilisi etiam dignissim diam. Aenean sed adipiscing diam donec adipiscing tristique. Porttitor massa id neque aliquam. Sem viverra aliquet eget sit amet tellus cras. Scelerisque eu ultrices vitae auctor eu augue ut lectus. Nunc aliquet bibendum enim facilisis gravida neque convallis a. Lacus sed turpis tincidunt id aliquet risus feugiat.
-
-
-```Python
-import pandas as pd
-
-df = pd.read_csv('file.tsv', sep='\t')
-print(df.columns)
-```
+For the Preporcessing part look the file cleaning_dataset.ipynb, there you will find all the modification we did to the dataset in order to clean it and shape it as we wanted.
 
 ## Data visualizations
 Sed enim ut sem viverra aliquet eget sit. Iaculis at erat pellentesque adipiscing commodo. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. At tempor commodo ullamcorper a lacus vestibulum sed arcu. Ipsum faucibus vitae aliquet nec ullamcorper sit. Tempus quam pellentesque nec nam aliquam sem et tortor. Turpis egestas sed tempus urna et pharetra pharetra massa. Ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel.
