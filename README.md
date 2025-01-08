@@ -58,11 +58,10 @@ In these maps, greater saturation indicates a higher number of crimes recorded i
 
 [<img src="assets/images/04.png" width="800" alt="Placeholder image">]()
 
-
 ### Bar Plot
 The bar plot illustrates the number of crimes committed in each police district over a four-year period.
 This visualization is particularly useful for understanding the total number of crimes recorded in Boston during these four years. From the data, it is evident that most of the crimes fall under the UCR Part 03 category, which represents low-severity offenses.
-The police districs with the highest number of crimes are: B2, C11, D4 while the lowest one is A15. Is important to notice that the police districts with the higest number of crimes are the one nearer to the city center while the ones further away are the ones with a lower level of criminality. This could suggest us that the crime rate is moslty affected by the amount of people living in a certain area but we do not have the data to confirm this Hypotesis.
+The police districs with the highest number of crimes are: Roxbury (B2), Dorchester (C11), and South End (D4), while the lowest one is A15. Is important to notice that the police districts with the higest number of crimes are the one nearer to the city center while the ones further away are the ones with a lower level of criminality. This could suggest us that the crime rate is moslty affected by the amount of people living in a certain area but we do not have the data to confirm this Hypotesis.
 
 [<img src="assets/images/04.png" width="800" alt="Placeholder image">]()
 
