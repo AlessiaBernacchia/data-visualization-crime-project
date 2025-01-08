@@ -14,8 +14,6 @@ This project explores **the distribution and severity of crimes across Boston's 
 Our findings reveal that the most critical time for safety in Boston is around 5 PM, when crime rates peak. Districts such as Roxbury (B2), Dorchester (C11), and South End (D4) are identified as the most problematic, with higher concentrations of serious and medium-level crimes. In contrast, Charlestown (A15) emerges as a model of safety and stability, thanks to its active community, historical landmarks that enhance surveillance, and successful urban redevelopment efforts.    
 Despite the higher crime rates in certain districts, all areas of Boston offer unique cultural and historical attractions that should not be overlooked. For those seeking a peaceful and secure environment, Charlestown stands out as an ideal destination, embodying a perfect blend of safety and charm.    
 This project **underscores the importance of understanding crime patterns to navigate the city more safely and highlights the potential for positive change through community engagement and urban development**.
-        
-
 
 ## Introduction
 Our research focuses on the distribution of crimes in Boston, aiming to identify the safest areas and the best times to explore the city. 
@@ -50,7 +48,7 @@ In these maps, greater saturation indicates a higher number of crimes recorded i
 ### Bar Plot
 The bar plot illustrates the number of crimes committed in each police district over a four-year period.
 This visualization is particularly useful for understanding the total number of crimes recorded in Boston during these four years. From the data, it is evident that most of the crimes fall under the UCR Part 03 category, which represents low-severity offenses.
-The police districs with the highest number of crimes are: Roxbury (B2), Dorchester (C11), and South End (D4), while the lowest one is A15. Is important to notice that the police districts with the higest number of crimes are the one nearer to the city center while the ones further away are the ones with a lower level of criminality. This could suggest us that the crime rate is moslty affected by the amount of people living in a certain area but we do not have the data to confirm this Hypotesis.
+The police districs with the highest number of crimes are: Roxbury (B2), Dorchester (C11), and South End (D4), while the lowest one is Charlestown (A15). Is important to notice that the police districts with the higest number of crimes are the one nearer to the city center while the ones further away are the ones with a lower level of criminality. This could suggest us that the crime rate is moslty affected by the amount of people living in a certain area but we do not have the data to confirm this Hypotesis.
 
 [<img src="assets/images/04.png" width="800" alt="Placeholder image">]()
 
