@@ -25,7 +25,7 @@ This study is particularly valuable for residents of Boston, tourists, and indiv
 We used a [dataset from Kaggle](https://www.kaggle.com/datasets/AnalyzeBoston/crimes-in-boston) that includes data from the Boston Police Department over a four-year period. This dataset provides a detailed record of all the crimes the police handled in Boston, categorized by police district.
 
 ## Data pre-processing
-For the Preporcessing part look the file cleaning_dataset.ipynb, there you will find all the modification we did to the dataset in order to clean it and shape it as we wanted. For commodity here there is a summary:
+For the Preprocessing part look the file cleaning_dataset.ipynb, there you will find all the modification we did to the dataset in order to clean it and shape it as we wanted. For commodity here there is a summary:
 
 1.    Initial data familiarization:
 Imported necessary libraries and loaded the crime.csv dataset on juyter notebook
@@ -45,14 +45,16 @@ The filtered dataset is exported and named as crime_cleaned.csv
 ## Data visualizations
 Sed enim ut sem viverra aliquet eget sit. Iaculis at erat pellentesque adipiscing commodo. Et pharetra pharetra massa massa ultricies mi quis hendrerit dolor. At tempor commodo ullamcorper a lacus vestibulum sed arcu. Ipsum faucibus vitae aliquet nec ullamcorper sit. Tempus quam pellentesque nec nam aliquam sem et tortor. Turpis egestas sed tempus urna et pharetra pharetra massa. Ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel.
 
-### Linechart
+### Visualisation n.1 
+#### Linechart: average number of crimes during the day
 This graph shows us the average trend in the number of crimes in Boston during the day. 
 On the X-axis we have the hour of the day, while on the Y-axis we have the number of crimes committed in Boston.
 This graph is the result of a daily average over the 4 years of data we had available. As you can tell, the most dangerous time of day is around 5:00 p.m., while the quietest time is during the night from 03:00 to 06:00 in the morning.
 
 https://public.tableau.com/static/images/nu/numerodicriminigiornaliero/Foglio6/1_rss.png
 
-### Maps
+### Visualisation n.2
+#### Maps: type of crimes for district
 These maps illustrate how crimes are distributed across Boston, categorized by their level of severity. They provide a valuable visual representation of which police districts experience higher crime rates.The crimes are divided into three levels of severity:  
 Low severity (UCR Part 03), Medium severity (UCR Part 02), High severity (UCR Part 01),
 While the Boston Police Department typically classifies crimes only as UCR Part 01 and UCR Part 02, we introduced a third category (UCR Part 03) to include very low-level crimes, ensuring a more detailed representation of crime types.
@@ -62,7 +64,8 @@ In these maps, greater saturation indicates a higher number of crimes recorded i
 2. https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UC&#47;UCR_part&#47;Sheet44&#47;1_rss.png
 3. https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DP&#47;DPJCPMCRB&#47;1_rss.png
 
-### Bar Plot
+### Visualisation n.3
+#### Barchart: level of crimes
 The bar plot illustrates the number of crimes committed in each police district over a four-year period.
 This visualization is particularly useful for understanding the total number of crimes recorded in Boston during these four years. From the data, it is evident that most of the crimes fall under the UCR Part 03 category, which represents low-severity offenses.
 The police districs with the highest number of crimes are: Roxbury (B2), Dorchester (C11), and South End (D4), while the lowest one is Charlestown (A15). Is important to notice that the police districts with the higest number of crimes are the one nearer to the city center while the ones further away are the ones with a lower level of criminality. This could suggest us that the crime rate is moslty affected by the amount of people living in a certain area but we do not have the data to confirm this Hypotesis.
