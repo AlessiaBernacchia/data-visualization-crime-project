@@ -58,9 +58,9 @@ Low severity (UCR Part 03), Medium severity (UCR Part 02), High severity (UCR Pa
 While the Boston Police Department typically classifies crimes only as UCR Part 01 and UCR Part 02, we introduced a third category (UCR Part 03) to include very low-level crimes, ensuring a more detailed representation of crime types.
 In these maps, greater saturation indicates a higher number of crimes recorded in a particular district over the four years covered by our data. From this graph we see that the police districts with more crimes are the ones nearer the city center, while the farther have a lower crime rate. This could be the result of many possible indicators like the demographic distribution or others socioeconomic factors but we dont have the data to discuss this Hypotesis.
 
-https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UC&#47;UCR_part&#47;Sheet45&#47;1_rss.png
-https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UC&#47;UCR_part&#47;Sheet44&#47;1_rss.png
-https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DP&#47;DPJCPMCRB&#47;1_rss.png
+1. https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UC&#47;UCR_part&#47;Sheet45&#47;1_rss.png
+2. https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UC&#47;UCR_part&#47;Sheet44&#47;1_rss.png
+3. https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;DP&#47;DPJCPMCRB&#47;1_rss.png
 
 ### Bar Plot
 The bar plot illustrates the number of crimes committed in each police district over a four-year period.
