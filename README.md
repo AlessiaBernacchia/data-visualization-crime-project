@@ -46,8 +46,7 @@ Sed enim ut sem viverra aliquet eget sit. Iaculis at erat pellentesque adipiscin
 ### Linechart
 This graph shows us the average trend in the number of crimes in Boston during the day. 
 On the X-axis we have the hour of the day, while on the Y-axis we have the number of crimes committed in Boston.
-This graph is the result of a daily average over the 4 years of data we had available. 
-As you can tell, the most dangerous time of day is around 5:00 p.m., while the quietest time is during the night from 03:00 to 06:00 in the morning.
+This graph is the result of a daily average over the 4 years of data we had available. As you can tell, the most dangerous time of day is around 5:00 p.m., while the quietest time is during the night from 03:00 to 06:00 in the morning.
 
 [<img src="assets/images/03.png" width="800" alt="Placeholder image">]()
 
