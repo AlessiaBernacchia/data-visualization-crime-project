@@ -1342,6 +1342,10 @@
   }
 }.u-section-22 .u-sheet-1 {
   min-height: 321px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra verticalmente */
+  height: 100%; 
 }
 
 .u-section-22 .u-text-1 {
