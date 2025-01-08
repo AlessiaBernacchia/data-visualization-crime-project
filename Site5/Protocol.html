@@ -80,10 +80,10 @@
     <section class="u-clearfix u-grey-5 u-section-2" id="sec-c67e">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h3 class="u-text u-text-1">Data Source</h3>
-        <p class="u-text u-text-2">Il datasetè preso da Kaggle,<br>riguarda i crimini commessi a Boston, i dati sono stati raccolti dalla polizia e sono dati veri.<br>v&lt;bynt rnyrsiu6si64yrim nsk 6rstbuua<br>baeyaeyusrtunsrtnubrstuu<br>b aeratsrusrtusrtusrtunsr
+        <p class="u-text u-text-2">Crimes in Boston
         </p>
         <h3 class="u-text u-text-3">Timestamp:</h3>
-        <p class="u-text u-text-4">dal .... al ....</p>
+        <p class="u-text u-text-4">From 2015 to 2018</p>
         <a href="https://www.kaggle.com/datasets/AnalyzeBoston/crimes-in-boston" class="u-align-left u-btn u-button-style u-palette-3-base u-btn-1" target="_blank">link to the dataset </a>
       </div>
     </section>
@@ -172,22 +172,22 @@ converting it into individual binary columns fo...</p>
     </section>
     <section class="u-border-2 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-clearfix u-section-12" id="sec-a5ee">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-custom-font u-text u-text-font u-text-1">name 1 (il grafico della media dei crimini per ora)</h1>
-        <p class="u-text u-text-2">Descrizione azione svolta bla bla bla bla bla bla bla bla<br>Con il fine di<br>Perchè
+        <h1 class="u-custom-font u-text u-text-font u-text-1">Average number of crimes during the day:</h1>
+        <p class="u-text u-text-2">1. Create a calculate field where we obtain the average number of crimes in a day<br>2. Put the calculated field in the rows field<br>3. Put Hour in the columns<br>4. Change the type of chart to line chart<br>5. Go to Hour axis<br>6. Select Modify axis<br>7. Under Interval, select Personalize<br>8. Change the value -2 to 0 and the value 25 to 23<br>9. In Title, select Hide title
         </p>
       </div>
     </section>
     <section class="u-border-2 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-clearfix u-section-13" id="sec-8521">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-custom-font u-text u-text-font u-text-1">name 2 (le tre mappe: low, medium, high)</h1>
-        <p class="u-text u-text-2">Descrizione azione svolta bla bla bla bla bla bla bla bla<br>Con il fine di<br>Perchè
+        <h1 class="u-custom-font u-text u-text-font u-text-1">Type of crimes for district:</h1>
+        <p class="u-text u-text-2">1. Grab and drag the Geometry of Police_District.geojson file on the empty table<br>2. Put District1 in the label indicators<br>3. Put Number of crimes of crime_cleaned.csv file in color indicators<br>4. Put the Ucr Part in Filters<br>5. Select Modify Filter<br>6. Select one of three main options (High, medium, low)<br>7. In color indicators, select modify color<br>8. Select one of the three color: red(high), orange(medium), low(yellow)<br>9. In Title, select Hide title
         </p>
       </div>
     </section>
     <section class="u-border-2 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-clearfix u-section-14" id="sec-7ddd">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h1 class="u-custom-font u-text u-text-font u-text-1">name 3 (l'istogramma per ogni distretto dei tipi di crimini) </h1>
-        <p class="u-text u-text-2">Descrizione azione svolta bla bla bla bla bla bla bla bla<br>Con il fine di<br>Perchè
+        <h1 class="u-custom-font u-text u-text-font u-text-1">Level of crimes:</h1>
+        <p class="u-text u-text-2"><br>1. Put District of crime_cleaned.csv file in the columns field<br>2. Put the calculate field Number of crimes in the rows field<br>3. Put Ucr part in Filters<br>4. Select Modify Filter<br>5. Select only High, Medium, Low values<br>6. Grab and drag Ucr Part on color indicators<br>7. In color indicators, select modify colors<br>8. Select red(High), orange(medium), yellow(low)<br>9. In Title, select Hide title
         </p>
       </div>
     </section>
