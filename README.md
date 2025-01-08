@@ -41,7 +41,7 @@ This graph is the result of a daily average over the 4 years of data we had avai
 These maps illustrate how crimes are distributed across Boston, categorized by their level of severity. They provide a valuable visual representation of which police districts experience higher crime rates.The crimes are divided into three levels of severity:  
 Low severity (UCR Part 03), Medium severity (UCR Part 02), High severity (UCR Part 01),
 While the Boston Police Department typically classifies crimes only as UCR Part 01 and UCR Part 02, we introduced a third category (UCR Part 03) to include very low-level crimes, ensuring a more detailed representation of crime types.
-In these maps, greater saturation indicates a higher number of crimes recorded in a particular district over the four years covered by our data.
+In these maps, greater saturation indicates a higher number of crimes recorded in a particular district over the four years covered by our data. From this graph we see that the police districts with more crimes are the ones nearer the city center, while the farther have a lower crime rate. This could be the result of many possible indicators like the demographic distribution or others socioeconomic factors but we dont have the data to discuss this Hypotesis.
 
 [<img src="assets/images/04.png" width="800" alt="Placeholder image">]()
 
