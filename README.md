@@ -22,7 +22,7 @@ This approach provides a clear overview of the areas and times to avoid.The main
 This study is particularly valuable for residents of Boston, tourists, and individuals considering moving to the city. It serves as a practical guide to better understand the patterns of crime in Boston and make informed decisions about safety.
 
 ## Data sources
-We used a [dataset from Kaggle] (https://www.kaggle.com/datasets/AnalyzeBoston/crimes-in-boston) that includes data from the Boston Police Department over a four-year period. This dataset provides a detailed record of all the crimes the police handled in Boston, categorized by police district.
+We used a [dataset from Kaggle](https://www.kaggle.com/datasets/AnalyzeBoston/crimes-in-boston) that includes data from the Boston Police Department over a four-year period. This dataset provides a detailed record of all the crimes the police handled in Boston, categorized by police district.
 
 ## Data pre-processing
 For the Preporcessing part look the file cleaning_dataset.ipynb, there you will find all the modification we did to the dataset in order to clean it and shape it as we wanted. For commodity here there is a summary:
