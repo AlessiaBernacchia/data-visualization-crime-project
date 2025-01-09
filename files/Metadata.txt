@@ -1,0 +1,16 @@
+Metadata:
+Incident_number: A unique identifier assigned to the reported crime.
+Offence_code_group: The category or type of crime committed.
+Offence_description: A detailed description of the specific crime.
+District: The police district where the crime was reported.
+Shooting: Indicates whether the crime involved a shooting (yes/no).
+Occurred_on_date: The exact date when the crime occurred.
+Year: The year in which the crime took place.
+Month: The month in which the crime took place.
+Day_of_week: The day of the week when the crime occurred (e.g., Monday, Tuesday).
+Hour: The hour of the day when the crime occurred.
+UCR_part: Classification of the crime based on its level of severity or danger.
+Street: The street where the crime was reported.
+Lat: The latitude coordinate of the crime location.
+Long: The longitude coordinate of the crime location.
+Location: The combined latitude and longitude coordinates specifying where the crime occurred.               
